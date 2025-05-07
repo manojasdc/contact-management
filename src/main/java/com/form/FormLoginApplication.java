@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FormLoginApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Starting FormLoginApplication...");
 		SpringApplication.run(FormLoginApplication.class, args);
 	}
 
